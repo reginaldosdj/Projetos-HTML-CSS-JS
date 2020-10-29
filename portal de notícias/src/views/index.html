@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="../../public/js/script.js"></script>
+  <link rel="stylesheet" href="../../public/styles/main.css" type="text/css">
+  <title>MegaPortal</title>
+</head>
+
+<body>
+
+  <header id="container1">
+
+    <div class="topo">
+      <nav class="menu1">
+        <a href="">Home</a>
+        <a href="">Quem Somos</a>
+        <a href="">Anuncie Aqui</a>
+        <a href="">Contato</a>
+      </nav>
+
+      <div class="menu2">
+        <a href="https://pt.wikipedia.org/wiki/RSS"><img src="../../public/images/rss.png" alt=""></a>
+        <a href="https://myaccount.google.com/intro/profile"><img src="../../public/images/googleplus.png" alt=""></a>
+        <a href="https://www.facebook.com/"><img src="../../public/images/facebook.png" alt=""></a>
+        <a href="https://twitter.com/login?lang=pt"><img src="../../public/images/twitter.png" alt=""></a>
+        <a href="https://www.youtube.com/watch?v=HwRL1LNVTLI"><img src="../../public/images/youtube.png" alt=""></a>
+        <input class="search" type="text" placeholder="Buscar...">
+        <input class="envio" type="image" value="" src="../../public/images/lupa.png" width="25px" height="25px">
+      </div>
+    </div>
+
+  </header>
+
+  <header id="container2">
+    <img src="../../public/images/logo.png" alt="">
+    <h1>Publicidade 728x90px</h1>
+
+  </header>
+  <div id="container3">
+    <nav class="menu3">
+      <img src="../../public/images/menu.png" border="0" width="40" height="40" class="menuMobile" onclick="toggleMenu()"/>
+      <ul id="menu">
+        <li><a href="./" class="ativo">Home </a></li>
+        <li><a href="./">Economia</a></li>
+
+        <li>
+          <a href="./">Entretenimento</a>
+          <img src="../../public/images/arrowdown.jpg" alt="" width="10px">
+          <div class="submenu">
+
+            <a href="./">
+              <div class="submenuItem">Filmes</div>
+            </a>
+            <a href="./">
+              <div class="submenuItem">Jogos</div>
+            </a>
+            <a href="./">
+              <div class="submenuItem">Teatro</div>
+            </a>
+
+          </div>
+        </li>
+
+        <li><a href="./">Esportes</a>
+          <img src="../../public/images/arrowdown.jpg" alt="" width="10px">
+          <div class="submenu">
+            <a href="./">
+              <div class="submenuItem">Futebol</div>
+            </a>
+            <a href="./">
+              <div class="submenuItem">vólei</div>
+            </a>
+            <a href="./">
+              <div class="submenuItem">basquete</div>
+            </a>
+          </div>
+        </li>
+
+        <li><a href="./">Geral</a></li>
+        <li><a href="./">Notícias</a>
+          <img src="../../public/images/arrowdown.jpg" alt="" width="10px">
+          <div class="submenu">
+
+            <a href="./">
+              <div class="submenuItem">tragédias</div>
+            </a>
+            <a href="./">
+              <div class="submenuItem">superações</div>
+            </a>
+            <a href="./">
+              <div class="submenuItem">Mundo</div>
+            </a>
+
+          </div>
+        </li>
+        <li><a href="./">Polícia</a></li>
+        <li><a href="./">Vídeos</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section>
+    <div class=new-notice>
+      <h1>Últimas Notícias</h1>
+      <p>Criador da internet teme a perda de todas as nossas memórias digitais no futuro</p>
+    </div>
+
+    <div id="container4">
+      <div class="leftside">
+        <div class="slideshow" id="slideshow">
+          <div class="slidebolinhas">
+            <div class="bolinha" onclick="mudarSlide(0)"></div>
+            <div class="bolinha" onclick="mudarSlide(1)"></div>
+            <div class="bolinha" onclick="mudarSlide(2)"></div>
+            <div class="bolinha" onclick="mudarSlide(3)"></div>
+          </div>
+          <div class="slideshowarea">
+            <a href="https://g1.globo.com/mundo/noticia/2020/10/26/senado-dos-eua-aprova-indicacao-da-conservadora-amy-coney-barrett-para-a-suprema-corte.ghtml"
+              target="blank">
+              <div class="slide" style="background-image:url('../../public/images/1.webp')">
+                <div class="slideinfo">
+                  <div class="slideinfo_titulo">
+                    Senado dos EUA aprova nome, e Amy Coney Barrett toma posse como juíza da Suprema Corte
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://g1.globo.com/pr/norte-noroeste/noticia/2020/10/26/acusado-de-matar-ator-rafael-miguel-e-os-pais-dele-fez-documentos-falsos-no-interior-do-parana-diz-policia.ghtml"
+              target="blank">
+              <div class="slide" style="background-image:url('../../public/images/2.webp')">
+                <div class="slideinfo">
+                  <div class="slideinfo_titulo">
+                    Acusado de matar ator Rafael Miguel e os pais dele fez documento falso no interior do Paraná, diz
+                    polícia
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://globoesporte.globo.com/futebol/times/palmeiras/noticia/noticias-palmeiras-tecnico-novo-beccacece-racing.ghtml"
+              target="blank">
+              <div class="slide" style="background-image:url('../../public/images/3.webp')">
+                <div class="slideinfo">
+                  <div class="slideinfo_titulo">
+                    Presidente do Racing diz que Beccacece recusou proposta do Palmeiras
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://globoesporte.globo.com/motor/formula-1/noticia/maior-vencedor-da-formula-1-lewis-hamilton-ainda-pode-derrubar-outros-recordes-veja.ghtml"
+              target="blank">
+              <div class="slide" style="background-image:url('../../public/images/4.webp')">
+                <div class="slideinfo">
+                  <div class="slideinfo_titulo">
+                    Maior vencedor da Fórmula 1, Lewis Hamilton ainda pode derrubar outros recordes;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div id="container5">
+      <div class="social">
+
+        <h2>SOCIAL</h2>
+        <div class="socials">
+          <a href="https://pt.wikipedia.org/wiki/RSS"><img src="../../public/images/rss.png" alt=""></a>
+          <a href="https://myaccount.google.com/intro/profile"><img src="../../public/images/googleplus.png" alt=""></a>
+          <a href="https://www.facebook.com/"><img src="../../public/images/facebook.png" alt=""></a>
+          <a href="https://twitter.com/login?lang=pt"><img src="../../public/images/twitter.png" alt=""></a>
+          <a href="https://www.youtube.com/watch?v=HwRL1LNVTLI"><img src="../../public/images/youtube.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="last-notices">
+        <h2>ÚLTIMAS NOTÍCIAS</h2>
+
+        <article class='infos'>
+          <p>Pedido de impeachment
+            Tribunal aceita denúncia, e governador de SC será afastado por até 180 dias</p>
+          <p>Lives de hoje: Wesley Safadão, Billie Eilish, Ana Cañas e mais shows pra ver em casa</p>
+          <p>Com mais de 42 mil novos registros nas últimas 24 horas, total chegou a 1.041.075, segundo agência de
+            saúde
+            pública. Itália bateu novamente nesta sexta-feira (23) seu recorde diário de maior número de casos desde o
+            início da pandemia.</p>
+          <p>Com mais de 42 mil novos registros nas últimas 24 horas, total chegou a 1.041.075, segundo agência de
+            saúde
+            pública. Itália bateu novamente nesta sexta-feira (23) seu recorde diário de maior número de casos desde o
+            início da pandemia.</p>
+          <p>Com mais de 42 mil novos registros nas últimas 24 horas, total chegou a 1.041.075, segundo agência de
+            saúde
+            pública. Itália bateu novamente nesta sexta-feira (23) seu recorde diário de maior número de casos desde o
+            início da pandemia.</p>
+        </article>
+      </div>
+      <div class="publisher">
+        <h2>PUBLICIDADE</h2>
+
+        <img src="../../public/images/banner.jpg" alt="banner">
+      </div>
+      <div class="facebook">
+        <h2>ENCONTRE-NOS NO FACEBOOK</h2>
+        <div class="facebook-link">
+          <p>Acesse meu facebook no link abaixo</p>
+          <a href="https://www.facebook.com/profile.php?id=100003641126238"> <button>FACEBOOK</button></a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <section id="container6">
+
+      <div class="main-notice">
+        <h2>NOTÍCIAS</h2>
+        <div class="big-notice">
+          <img
+            src="https://s2.glbimg.com/7WcyfoSLJZhBteKpA4JZ1eZTxRQ=/0x0:650x562/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/U/x/2qbbYoROil8uvdArGO9g/total-de-candidaturas-aptas-e-inaptas-para-a-eleicao-2020.jpg"
+            alt="logo notícia" width="100%" style="border:3px solid rgb(165, 165, 165);">
+          <h3>Justiça Eleitoral indefere mais de 10 mil candidaturas</h3>
+          <span>5 dias atrás</span>
+          <span>deixe um comentário</span>
+          <p>Falta de documentos é o principal motivo das impugnações; Ficha Limpa, o segundo. Especialista em direito
+            eleitoral considera que muitos candidatos ainda poderão concorrer após recorrer em segunda instância. </p>
+        </div>
+        <div class="much-notice">
+          <div class="small-notice">
+            <img
+              src="https://s2.glbimg.com/jSp6SXun9wReK4XD6tvLavajzHo=/0x0:1500x1028/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/l/k/E0DvLRSUqDkmf8LxsxSA/50302709478-32c1dc1ae4-h.jpg"
+              alt="" width="100px" height="100px" style="border:3px solid rgb(165, 165, 165);">
+            <div class="small-notice-text">
+              <p>De negociável a artilheiro: Brenner cresce no São Paulo sob comando de Diniz e se torna peça-chave
+              </p>
+              <span>5 dias atrás</span>
+              <span>deixe um comentário</span>
+            </div>
+          </div>
+          <div class="small-notice">
+            <img
+              src="https://s2.glbimg.com/tSjHIfW825DiKUHH5s3h_V8rI44=/0x0:4225x2798/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/G/9/AGVwBiR6OitEFtglvaGg/20181012190613-5bc11ad5cda93.jpg"
+              alt="" width="100px" height="100px" style="border:3px solid rgb(165, 165, 165);">
+            <div class="small-notice-text">
+              <p>Palmeiras faz proposta por Marquinhos Cipriano e aguarda resposta do Shakhtar</p>
+              <span>5 dias atrás</span>
+              <span>deixe um comentário</span>
+            </div>
+          </div>
+          <div class="small-notice">
+            <img
+              src="https://s2.glbimg.com/5fuzIrRyWeCSY0kBzi8Ku8IIJZw=/501x169:1794x897/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/H/P/tufeUVSimXQ8hTJbZyag/flordelis.jpg"
+              alt="" width="100px" height="100px" style="border:3px solid rgb(165, 165, 165);">
+            <div class="small-notice-text">
+              <p>Direção da Câmara decide nesta terça se envia caso da deputada Flordelis ao Conselho de Ética
+                Parecer da Corregedoria recomenda a análise pelo colegiado.
+              </p>
+              <span>5 dias atrás</span>
+              <span>deixe um comentário</span>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+    <section id="container6">
+
+      <div class="main-notice">
+        <h2>NOTÍCIAS</h2>
+        <div class="big-notice">
+          <img
+            src="https://s2.glbimg.com/7WcyfoSLJZhBteKpA4JZ1eZTxRQ=/0x0:650x562/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/U/x/2qbbYoROil8uvdArGO9g/total-de-candidaturas-aptas-e-inaptas-para-a-eleicao-2020.jpg"
+            alt="logo notícia" width="100%" style="border:3px solid rgb(165, 165, 165);">
+          <h3>Justiça Eleitoral indefere mais de 10 mil candidaturas</h3>
+          <span>5 dias atrás</span>
+          <span>deixe um comentário</span>
+          <p>Falta de documentos é o principal motivo das impugnações; Ficha Limpa, o segundo. Especialista em direito
+            eleitoral considera que muitos candidatos ainda poderão concorrer após recorrer em segunda instância. </p>
+        </div>
+        <div class="much-notice">
+          <div class="small-notice">
+            <img
+              src="https://s2.glbimg.com/jSp6SXun9wReK4XD6tvLavajzHo=/0x0:1500x1028/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/l/k/E0DvLRSUqDkmf8LxsxSA/50302709478-32c1dc1ae4-h.jpg"
+              alt="" width="100px" height="100px" style="border:3px solid rgb(165, 165, 165);">
+            <div class="small-notice-text">
+              <p>De negociável a artilheiro: Brenner cresce no São Paulo sob comando de Diniz e se torna peça-chave
+              </p>
+              <span>5 dias atrás</span>
+              <span>deixe um comentário</span>
+            </div>
+          </div>
+          <div class="small-notice">
+            <img
+              src="https://s2.glbimg.com/tSjHIfW825DiKUHH5s3h_V8rI44=/0x0:4225x2798/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/G/9/AGVwBiR6OitEFtglvaGg/20181012190613-5bc11ad5cda93.jpg"
+              alt="" width="100px" height="100px" style="border:3px solid rgb(165, 165, 165);">
+            <div class="small-notice-text">
+              <p>Palmeiras faz proposta por Marquinhos Cipriano e aguarda resposta do Shakhtar</p>
+              <span>5 dias atrás</span>
+              <span>deixe um comentário</span>
+            </div>
+          </div>
+          <div class="small-notice">
+            <img
+              src="https://s2.glbimg.com/5fuzIrRyWeCSY0kBzi8Ku8IIJZw=/501x169:1794x897/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/H/P/tufeUVSimXQ8hTJbZyag/flordelis.jpg"
+              alt="" width="100px" height="100px" style="border:3px solid rgb(165, 165, 165);">
+            <div class="small-notice-text">
+              <p>Direção da Câmara decide nesta terça se envia caso da deputada Flordelis ao Conselho de Ética
+                Parecer da Corregedoria recomenda a análise pelo colegiado.
+              </p>
+              <span>5 dias atrás</span>
+              <span>deixe um comentário</span>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+
+    <section id="container6">
+
+      <div class="main-notice">
+        <h2>NOTÍCIAS</h2>
+        <div class="big-notice">
+          <img
+            src="https://s2.glbimg.com/7WcyfoSLJZhBteKpA4JZ1eZTxRQ=/0x0:650x562/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/U/x/2qbbYoROil8uvdArGO9g/total-de-candidaturas-aptas-e-inaptas-para-a-eleicao-2020.jpg"
+            alt="logo notícia" width="100%" style="border:3px solid rgb(165, 165, 165);">
+          <h3>Justiça Eleitoral indefere mais de 10 mil candidaturas</h3>
+          <span>5 dias atrás</span>
+          <span>deixe um comentário</span>
+          <p>Falta de documentos é o principal motivo das impugnações; Ficha Limpa, o segundo. Especialista em direito
+            eleitoral considera que muitos candidatos ainda poderão concorrer após recorrer em segunda instância. </p>
+        </div>
+        <div class="much-notice">
+          <div class="small-notice">
+            <img
+              src="https://s2.glbimg.com/jSp6SXun9wReK4XD6tvLavajzHo=/0x0:1500x1028/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/l/k/E0DvLRSUqDkmf8LxsxSA/50302709478-32c1dc1ae4-h.jpg"
+              alt="" width="100px" height="100px" style="border:3px solid rgb(165, 165, 165);">
+            <div class="small-notice-text">
+              <p>De negociável a artilheiro: Brenner cresce no São Paulo sob comando de Diniz e se torna peça-chave
+              </p>
+              <span>5 dias atrás</span>
+              <span>deixe um comentário</span>
+            </div>
+          </div>
+          <div class="small-notice">
+            <img
+              src="https://s2.glbimg.com/tSjHIfW825DiKUHH5s3h_V8rI44=/0x0:4225x2798/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/G/9/AGVwBiR6OitEFtglvaGg/20181012190613-5bc11ad5cda93.jpg"
+              alt="" width="100px" height="100px" style="border:3px solid rgb(165, 165, 165);">
+            <div class="small-notice-text">
+              <p>Palmeiras faz proposta por Marquinhos Cipriano e aguarda resposta do Shakhtar</p>
+              <span>5 dias atrás</span>
+              <span>deixe um comentário</span>
+            </div>
+          </div>
+          <div class="small-notice">
+            <img
+              src="https://s2.glbimg.com/5fuzIrRyWeCSY0kBzi8Ku8IIJZw=/501x169:1794x897/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/H/P/tufeUVSimXQ8hTJbZyag/flordelis.jpg"
+              alt="" width="100px" height="100px" style="border:3px solid rgb(165, 165, 165);">
+            <div class="small-notice-text">
+              <p>Direção da Câmara decide nesta terça se envia caso da deputada Flordelis ao Conselho de Ética
+                Parecer da Corregedoria recomenda a análise pelo colegiado.
+              </p>
+              <span>5 dias atrás</span>
+              <span>deixe um comentário</span>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+
+  </section>
+
+
+
+
+
+
+</body>
+
+
+
+</html>
